@@ -36,3 +36,4 @@ Health Check
 Before completion, the script verifies the system's Python 3 installation to ensure the environment is ready for the application logic.
 
 Video Walkthrough
+https://youtu.be/_neO8A1Pb5E
