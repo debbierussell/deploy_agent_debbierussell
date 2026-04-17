@@ -27,11 +27,6 @@ cat <<INNER_EOF > "$PARENT_DIR/Helpers/config.json"
 {"warning_threshold": 75, "failure_threshold": 50}
 INNER_EOF
 
-cat <<INNER_EOF > "$PARENT_DIR/Helpers/assets.csv"
-StudentID,Name,Score
-101,Alice,88
-INNER_EOF
-
 touch "$PARENT_DIR/reports/reports.log"
 
 # --- Sed Editing ---
@@ -51,4 +46,5 @@ if python3 --version > /dev/null 2>&1; then
 else
     echo "[WARNING] python3 not found."
 fi
+
 echo "Setup Complete!"
